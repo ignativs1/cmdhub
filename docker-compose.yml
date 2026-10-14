@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  cmdhub:
+    build: .
+    container_name: cmdhub
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app
+    environment:
+      - CMDHUB_PORT=8080
+      - CMDHUB_HOST=0.0.0.0

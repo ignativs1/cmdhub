@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Database
+cmdhub.db
+cmdhub.db-journal
+*.db
+*.sqlite3
+
+# Logs & Temp
+*.log
+/tmp/
+.cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker volume
+data/
